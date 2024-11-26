@@ -1,5 +1,5 @@
 ## *Navigation Bar*
-.navbar {
+'''.navbar {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -24,7 +24,7 @@
       text-decoration: none;
     }
 
-<div class="navbar">
+'''<div class="navbar">
     <div class="logo">Reyn's Website</div>
     <ul>
       <li><a href="#">Product List</a></li>
@@ -35,7 +35,7 @@
   
 ## *Product List*
 
-.product-container {
+'''.product-container {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
@@ -62,7 +62,7 @@
       color: #7f8c8d;
     }
 
-<div id="product-section">
+'''<div id="product-section">
     <h1>Product List</h1>
     <div class="product-container">
       <div class="product-card">
@@ -85,7 +85,7 @@
   
 ## *Employee Cards*
 
-.employee-container {
+'''.employee-container {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
@@ -120,7 +120,7 @@
       color: #7f8c8d;
     }
 
-<div id="employee-section">
+'''<div id="employee-section">
     <h1>Employee Cards</h1>
     <div class="employee-container">
       <div class="employee-card">
@@ -149,7 +149,7 @@
   
 ## *Student Profile*
 
-.profile-container {
+'''.profile-container {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -174,7 +174,7 @@
       text-align: center;
     }
 
-<div id="student-section">
+'''<div id="student-section">
     <h1>Student Profiles</h1>
     <div class="profile-container">
       <img src="student1.jpg" alt="Student 1">
@@ -195,7 +195,7 @@
   
 ## *Footer Layout*
 
-.footer {
+'''.footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -211,7 +211,7 @@
       text-align: center;
     }
 
-<footer class="footer">
+'''<footer class="footer">
     <div class="left">© 2024 Reyn's Website</div>
     <div class="center">Follow us on social media</div>
     <div class="right">Privacy Policy</div>
